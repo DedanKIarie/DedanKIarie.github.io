@@ -1,12 +1,14 @@
 .navBar {
     width: 1510px;
     height: 60px;
-    background-color: azure;
-    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
     position: fixed;
     z-index: 1000;
     border-radius: 50px;
+    box-shadow: 15px 5px 20px  rgb(92, 92, 92);
 }
+
 
 .navicon {
     width: 70px;
@@ -31,12 +33,47 @@
 
 .navdata {
     border-radius: 20px;
-    border: 3px solid black;
-    background-color: white; 
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align:center;
 }
 
 .navdata:hover {
-    border: 3px solid black;
-    background-color: rgb(0, 0, 0); 
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(58, 58, 58);
     color: white;
+}
+
+.homesect {
+    width: 1110px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-left: 220px;
+    box-shadow: 15px 5px 20px  rgb(92, 92, 92);
+}
+
+.homeimg {
+    width: 1110px;
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 50px;
+    opacity: 0.4;
+}
+
+.weltext {
+    text-align: center;
+    margin-top: -400px;
+    color: white;
+    font-size: 60;
+    font-weight: bold;
+}
+
+.weldata {
+    text-align: center;
+    margin-top: -20px;
+    color: rgb(255, 255, 255);
+    font-size: 30;
+    font-weight: lighter;
 }
