@@ -39,7 +39,7 @@
 }
 
 .navdata:hover {
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
     background-color: rgb(58, 58, 58);
     color: white;
 }
@@ -112,9 +112,9 @@
     justify-content: center;
     margin-top: -20px;
     font-size: 20px;
-    font-weight: lighter;
-    
+    font-weight: lighter;  
     height: 600px;
+    
 }
 
 .cont {
@@ -155,18 +155,24 @@
     margin-top: 130px;
 }
 
+.titletech {
+    text-align: center;
+    font-size: 40;
+}
+
 .techabout {
     width: 1110px;
     height: 100px;
     font-size: 20;
     text-align: center;
     margin-left: 100px;
+    margin-top: -14px;
     
 }
 
 .techlist {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: -20px;
@@ -181,5 +187,36 @@
     border-radius: 20px;
     border: 3px solid black;
     width: 480px;
-    height: 190px;
+    height: 200px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.imagebot {
+    border-radius: 20px;
+    width: 250px;
+    height: 170px;
+    margin-left: 6px;
+    margin-top: 13px;
+    border: 4px solid black;
+}
+
+.techtext {
+ 
+  
+    width: 200px;
+    height: 120px;
+    margin-left: 270px;
+    font-size: 15;
+    text-align: center;
+}
+
+.techheader {
+   
+    width: 190px;
+    height: 30px;
+    margin-top: -150px;
+    margin-left: 270px;
+    font-size: 15;
+    text-align: center;
+    text-decoration: underline;
 }
