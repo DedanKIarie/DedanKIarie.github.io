@@ -144,3 +144,42 @@
     font-size: 20;
 }
 
+.techsect {
+    width: 1310px;
+    height: 650px;
+    background-color: rgb(240, 240, 240);
+    border: 3px solid black;
+    border-radius: 50px;
+    margin-left: 113px;
+    box-shadow: 15px 5px 20px  rgb(92, 92, 92);
+    margin-top: 130px;
+}
+
+.techabout {
+    width: 1110px;
+    height: 100px;
+    font-size: 20;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+.techlist {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -20px;
+    font-size: 20px;
+    font-weight: lighter;  
+    height: 200px;
+    
+}
+
+.techcont {
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid black;
+    width: 480px;
+    height: 190px;
+}
