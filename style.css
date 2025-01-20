@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+
 html {
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navBar {
@@ -20,17 +23,19 @@ html {
 }
 
 .navtitle {
-    margin-top: -42px;
+    margin-top: -44px;
     margin-left: 67px;
-    font-size: 20;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
 }
 
 .navlist {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-top: -38px;
-    font-size: 20px;
+    margin-top: -40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     font-weight: lighter;
     
 }
@@ -72,7 +77,8 @@ html {
     text-align: center;
     margin-top: -400px;
     color: white;
-    font-size: 60;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -80,7 +86,8 @@ html {
     text-align: center;
     margin-top: -20px;
     color: rgb(255, 255, 255);
-    font-size: 30;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
     font-weight: lighter;
 }
 
@@ -88,7 +95,8 @@ html {
     text-align: center;
     margin-top: 310px;
     color: rgb(0, 0, 0);
-    font-size: 30;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     font-weight: lighter;
 } 
 
@@ -107,8 +115,9 @@ html {
     text-align: center;
     margin-top: 0px;
     color: white;
-    font-size: 30;
-    font-weight: bold;  
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .modelist {
@@ -142,13 +151,15 @@ html {
 }
 .conttext {
     text-align: center;
-    font-size: 15;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
     margin-top: -10px;
 }
 .contheader {
     margin-top: -1px;
     text-align: center;
-    font-size: 20;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
 }
 
 .techsect {
@@ -164,13 +175,15 @@ html {
 
 .titletech {
     text-align: center;
-    font-size: 40;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
 }
 
 .techabout {
     width: 1110px;
     height: 100px;
-    font-size: 20;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     text-align: center;
     margin-left: 100px;
     margin-top: -14px;
@@ -208,12 +221,11 @@ html {
 }
 
 .techtext {
- 
-  
     width: 200px;
     height: 120px;
     margin-left: 270px;
-    font-size: 15;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
     text-align: center;
 }
 
@@ -223,7 +235,8 @@ html {
     height: 30px;
     margin-top: -150px;
     margin-left: 270px;
-    font-size: 15;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
     text-align: center;
     text-decoration: underline;
 }
@@ -260,6 +273,8 @@ html {
     margin-bottom: -20px;
     color: white;
     text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 .contact {
@@ -276,10 +291,14 @@ html {
 .contacttitle {
     text-align: center;
     color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
 }
 
 .namepadding {
     color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 .roundbox {
     border-radius: 12px;
@@ -300,4 +319,9 @@ html {
 .submbtn {
     margin-left: 230px;
     margin-top: -10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
 }
